@@ -1,0 +1,23 @@
+{
+  "name": "generative-ai-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.19",
+    "@langchain/core": "^0.3.26",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "langchain": "^0.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
